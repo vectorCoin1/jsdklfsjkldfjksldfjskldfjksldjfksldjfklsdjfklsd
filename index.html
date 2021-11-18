@@ -113,7 +113,7 @@ function finder(n,nam){
     function validate(){
         console.log(confirmTextBox.value())
         passwordLabel.hide();
-        database.ref("people/samd/password").once('value').then((snapshot)=>{
+        database.ref("people/aarnav/password").once('value').then((snapshot)=>{
          password = snapshot.val();
     
          thingle(password)
